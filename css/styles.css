@@ -5,3 +5,49 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#signUpForm{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#signUpForm > input{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#submitBtn{
+    background-color: salmon;
+    border: 2px solid aquamarine!important;
+    /* to override the colour, use the !important to prioritize the colour */
+    border-radius: 5px;
+}
+
+
+.errorField{
+    border-color:white;
+}
+.errorMessage{
+    color: red;
+    padding: 0px 10px;
+    font-size: 12px;
+
+}
+
+.hidden{
+    display:none;
+}

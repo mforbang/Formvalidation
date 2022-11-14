@@ -8,7 +8,21 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Hello HTML</h1>
+        
+
+    <div class="formContainer">
+        <form id="signUpForm">
+            <input type="text" name="Username" id="usernameField" placeholder="Enter Username">
+            <span class="errorMessage hidden" id="usernameErrorMessage"> Please insert a username.</span>
+            <input type="email" name="email" id="emailField" placeholder="Enter Email">
+            <input type="password" name ="password" id="passwordField" placeholder="Enter Password">
+            <input type="password" name ="confirmPassword" id="confirmPassword" placeholder="Re-enter password">
+            <input type="submit" value = "Sign Up" id="submitBtn"> 
+
+        </form>
+
+    </div>
     <script src="js/script.js"></script>
+
 </body>
 </html>
